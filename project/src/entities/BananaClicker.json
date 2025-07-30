@@ -1,0 +1,35 @@
+{
+  "name": "BananaClicker",
+  "type": "object",
+  "properties": {
+    "userId": {
+      "type": "number",
+      "description": "Unique identifier for the user"
+    },
+    "bananas": {
+      "type": "number",
+      "description": "Total number of bananas collected"
+    },
+    "clickPower": {
+      "type": "number",
+      "description": "Number of bananas gained per click"
+    },
+    "autoClickerCount": {
+      "type": "number",
+      "description": "Number of auto-clickers owned"
+    },
+    "autoClickerRate": {
+      "type": "number",
+      "description": "Bananas per second from auto-clickers"
+    },
+    "upgrades": {
+      "type": "object",
+      "description": "Purchased upgrades and their levels"
+    }
+  },
+  "required": [
+    "userId",
+    "bananas",
+    "clickPower"
+  ]
+}
